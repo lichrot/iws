@@ -151,4 +151,6 @@ export interface IterableWeakSet<T extends WeakKey> {
 // @ts-expect-error: self-evident
 IterableWeakSet.prototype[Symbol.toStringTag] = "IterableWeakSet";
 
-IterableWeakSet.prototype.keys = IterableWeakSet.prototype.values = IterableWeakSet.prototype[Symbol.iterator];
+IterableWeakSet.prototype.keys =
+  IterableWeakSet.prototype.values =
+    IterableWeakSet.prototype[Symbol.iterator];

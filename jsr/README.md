@@ -4,7 +4,8 @@
 [![JSR Version](https://jsr.io/badges/@qnd/iws)](https://jsr.io/@qnd/iws)
 [![NPM Version](https://img.shields.io/npm/v/@qnd/iws)](https://www.npmjs.com/package/@qnd/iws)
 
-[WeakSet](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakSet) made iterable.
+[WeakSet](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakSet)
+made iterable.
 
 ## [💾] Installation
 

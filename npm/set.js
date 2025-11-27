@@ -12,7 +12,7 @@
  * for (const item of set) item();
  * set.delete(listener);
  * ```
- * 
+ *
  * @template {WeakKey} T
  */
 export class IterableWeakSet {
@@ -89,7 +89,7 @@ export class IterableWeakSet {
     return true;
   }
 
-  /** 
+  /**
    * Purges all existing elements from the IterableWeakSet.
    * @returns {void}
    */
@@ -145,4 +145,6 @@ IterableWeakSet.prototype[Symbol.toStringTag] = "IterableWeakSet";
  * Returns IterableIterator that produces currently existing elements
  * @returns {SetIterator<T>} IterableIterator that produces currently existing elements
  */
-IterableWeakSet.prototype.keys = IterableWeakSet.prototype.values = IterableWeakSet.prototype[Symbol.iterator];
+IterableWeakSet.prototype.keys =
+  IterableWeakSet.prototype.values =
+    IterableWeakSet.prototype[Symbol.iterator];

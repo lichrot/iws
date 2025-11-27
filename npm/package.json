@@ -1,7 +1,7 @@
 {
   "name": "@qnd/iws",
   "description": "Iterable WeakSet",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "Apache-2.0",
   "author": "Jørgen Tau",
   "private": false,

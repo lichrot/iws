@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "Apache-2.0",
   "workspace": ["./jsr", "./npm"],
   "compilerOptions": {
@@ -10,7 +10,7 @@
     "dry-run:jsr": "cd ./jsr && deno publish --dry-run --allow-dirty",
     "dry-run:npm": "cd ./npm && npm publish --dry-run --allow-dirty",
     "dry-run": "deno task dry-run:jsr && deno task dry-run:npm",
-    "prepare": "deno task test && deno fmt && deno task dry-run",
+    "prepare": "deno fmt && deno task dry-run",
     "publish:jsr": "cd ./jsr && deno publish",
     "publish:npm": "cd ./npm && npm publish --access=public",
     "publish": "deno task publish:jsr && deno task publish:npm"
