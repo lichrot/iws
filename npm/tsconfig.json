@@ -1,0 +1,7 @@
+{
+  "compilerOptions": {
+    "module": "ESNext",
+    "target": "ESNext",
+    "lib": ["ESNext", "dom", "dom.iterable", "dom.asynciterable"]
+  }
+}
