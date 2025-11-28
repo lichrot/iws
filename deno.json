@@ -1,12 +1,11 @@
 {
-  "version": "1.0.1",
+  "version": "1.1.0",
   "license": "Apache-2.0",
   "workspace": ["./jsr", "./npm"],
   "compilerOptions": {
     "lib": ["ESNext", "dom", "dom.iterable", "dom.asynciterable", "deno.ns"]
   },
   "tasks": {
-    "test": "deno test --v8-flags=--expose-gc",
     "dry-run:jsr": "cd ./jsr && deno publish --dry-run --allow-dirty",
     "dry-run:npm": "cd ./npm && npm publish --dry-run --allow-dirty",
     "dry-run": "deno task dry-run:jsr && deno task dry-run:npm",

@@ -1,14 +1,15 @@
 {
   "name": "@qnd/iws",
   "description": "Iterable WeakSet",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "license": "Apache-2.0",
   "author": "Jørgen Tau",
   "private": false,
   "type": "module",
   "main": "./mod.js",
   "module": "./mod.js",
-  "files": ["./mod.js", "./set.js", "./LICENSE", "./NOTICE", "./README.md"],
+  "types": "./mod.d.ts",
+  "files": ["./*.js", "./*.d.ts", "./LICENSE", "./NOTICE", "./README.md"],
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/lichrot/signals.git"
